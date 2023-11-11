@@ -1,0 +1,57 @@
+2023-11-07 22:48:54,129 DEBUG - Starting WinSW in the CLI mode
+2023-11-07 22:48:54,467 INFO  - Starting the service with id 'artemis-mybroker-0.0.0.0'
+2023-11-07 22:48:54,503 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   at WMI.Win32ServiceProxy.StartService()
+   at winsw.WrapperService.<Run>g__Start|33_2(<>c__DisplayClass33_0& )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2023-11-07 22:50:32,168 DEBUG - Starting WinSW in the CLI mode
+2023-11-07 22:50:32,480 FATAL - Unhandled exception
+System.Exception: Unknown command: run
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2023-11-07 22:50:43,536 DEBUG - Starting WinSW in the CLI mode
+2023-11-07 22:50:43,824 INFO  - Installing the service with id 'artemis-mybroker-0.0.0.0'
+2023-11-07 22:50:43,837 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'artemis-mybroker-0.0.0.0' already exists
+   at winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2023-11-07 22:50:57,466 DEBUG - Starting WinSW in the CLI mode
+2023-11-07 22:50:57,766 INFO  - Stopping the service with id 'artemis-mybroker-0.0.0.0'
+2023-11-07 22:50:57,769 INFO  - The service with ID 'artemis-mybroker-0.0.0.0' is not running
+2023-11-07 22:50:57,769 DEBUG - Completed. Exit code is 0
+2023-11-07 22:51:03,599 DEBUG - Starting WinSW in the CLI mode
+2023-11-07 22:51:03,883 FATAL - Unhandled exception
+System.Exception: Unknown command: run
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2023-11-07 22:51:15,469 DEBUG - Starting WinSW in the CLI mode
+2023-11-07 22:51:15,775 INFO  - Installing the service with id 'artemis-mybroker-0.0.0.0'
+2023-11-07 22:51:15,775 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'artemis-mybroker-0.0.0.0' already exists
+   at winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2023-11-09 20:18:52,328 DEBUG - Starting WinSW in the CLI mode
+2023-11-09 20:18:52,633 INFO  - Starting the service with id 'artemis-mybroker-0.0.0.0'
+2023-11-09 20:18:52,677 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   at WMI.Win32ServiceProxy.StartService()
+   at winsw.WrapperService.<Run>g__Start|33_2(<>c__DisplayClass33_0& )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2023-11-09 22:22:57,572 DEBUG - Starting WinSW in the service mode
+2023-11-09 22:22:57,636 INFO  - Starting %JAVA_HOME%\bin\java.exe  -XX:+UseParallelGC -Xms512M -Xmx1024M -classpath C:\Users\19521\apache-artemis\lib\artemis-boot.jar -Dartemis.home=C:\Users\19521\apache-artemis -Dartemis.instance=G:\WorkingPlace\TacoCloudReactSpring\mybroker -Ddata.dir=G:\WorkingPlace\TacoCloudReactSpring\mybroker\data -Dartemis.instance.etc=G:\WorkingPlace\TacoCloudReactSpring\mybroker\etc -Djava.security.auth.login.config=G:\WorkingPlace\TacoCloudReactSpring\mybroker\etc\login.config -Dhawtio.disableProxy=true -Dhawtio.realm=activemq -Dhawtio.offline="true" -Dhawtio.role=amq -Dhawtio.rolePrincipalClasses=org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal -Djolokia.policyLocation=file:/G:/WorkingPlace/TacoCloudReactSpring/mybroker/etc//jolokia-access.xml org.apache.activemq.artemis.boot.Artemis run 
+2023-11-09 22:22:57,723 DEBUG - Completed. Exit code is 0
+2023-11-09 22:58:41,492 DEBUG - Starting WinSW in the service mode
+2023-11-09 22:58:41,555 INFO  - Starting %JAVA_HOME%\bin\java.exe  -XX:+UseParallelGC -Xms512M -Xmx1024M -classpath C:\Users\19521\apache-artemis\lib\artemis-boot.jar -Dartemis.home=C:\Users\19521\apache-artemis -Dartemis.instance=G:\WorkingPlace\TacoCloudReactSpring\mybroker -Ddata.dir=G:\WorkingPlace\TacoCloudReactSpring\mybroker\data -Dartemis.instance.etc=G:\WorkingPlace\TacoCloudReactSpring\mybroker\etc -Djava.security.auth.login.config=G:\WorkingPlace\TacoCloudReactSpring\mybroker\etc\login.config -Dhawtio.disableProxy=true -Dhawtio.realm=activemq -Dhawtio.offline="true" -Dhawtio.role=amq -Dhawtio.rolePrincipalClasses=org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal -Djolokia.policyLocation=file:/G:/WorkingPlace/TacoCloudReactSpring/mybroker/etc//jolokia-access.xml org.apache.activemq.artemis.boot.Artemis run 
+2023-11-09 22:58:41,625 DEBUG - Completed. Exit code is 0
+2023-11-10 11:20:02,426 DEBUG - Starting WinSW in the service mode
+2023-11-10 11:20:02,499 INFO  - Starting %JAVA_HOME%\bin\java.exe  -XX:+UseParallelGC -Xms512M -Xmx1024M -classpath C:\Users\19521\apache-artemis\lib\artemis-boot.jar -Dartemis.home=C:\Users\19521\apache-artemis -Dartemis.instance=G:\WorkingPlace\TacoCloudReactSpring\mybroker -Ddata.dir=G:\WorkingPlace\TacoCloudReactSpring\mybroker\data -Dartemis.instance.etc=G:\WorkingPlace\TacoCloudReactSpring\mybroker\etc -Djava.security.auth.login.config=G:\WorkingPlace\TacoCloudReactSpring\mybroker\etc\login.config -Dhawtio.disableProxy=true -Dhawtio.realm=activemq -Dhawtio.offline="true" -Dhawtio.role=amq -Dhawtio.rolePrincipalClasses=org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal -Djolokia.policyLocation=file:/G:/WorkingPlace/TacoCloudReactSpring/mybroker/etc//jolokia-access.xml org.apache.activemq.artemis.boot.Artemis run 
+2023-11-10 11:20:02,574 DEBUG - Completed. Exit code is 0

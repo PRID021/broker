@@ -1,0 +1,133 @@
+2023-11-09 20:22:03,000 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server version 2.31.2
+2023-11-09 20:22:03,044 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2023-11-09 20:22:03,079 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2023-11-09 20:22:03,161 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1073741824
+2023-11-09 20:22:03,185 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2023-11-09 20:22:03,186 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2023-11-09 20:22:03,187 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2023-11-09 20:22:03,187 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2023-11-09 20:22:03,188 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2023-11-09 20:22:03,189 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2023-11-09 20:22:03,235 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2023-11-09 20:22:03,236 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2023-11-09 20:22:03,566 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2023-11-09 20:22:03,568 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2023-11-09 20:22:03,573 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2023-11-09 20:22:03,573 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2023-11-09 20:22:04,047 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2023-11-09 20:22:04,108 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2023-11-09 20:22:04,174 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2023-11-09 20:22:04,218 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2023-11-09 20:22:04,259 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2023-11-09 20:22:04,263 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2023-11-09 20:22:04,264 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.31.2 [0.0.0.0, nodeID=930848c2-7d85-11ee-b840-64bc58ba0f59] 
+2023-11-09 20:22:04,273 INFO  [org.apache.activemq.artemis] AMQ241003: Starting embedded web server
+2023-11-09 20:22:04,974 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2023-11-09 20:22:05,028 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2023-11-09 20:22:05,304 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2023-11-09 20:22:05,312 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2023-11-09 20:22:05,314 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.17.6
+2023-11-09 20:22:05,320 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2023-11-09 20:22:05,328 INFO  [io.hawt.web.auth.LoginRedirectFilter] Hawtio loginRedirectFilter is using 1800 sec. HttpSession timeout
+2023-11-09 20:22:05,338 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2023-11-09 20:22:05,344 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/G:/WorkingPlace/TacoCloudReactSpring/mybroker/etc/\jolokia-access.xml]
+2023-11-09 20:22:05,432 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2023-11-09 20:22:05,432 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2023-11-09 20:22:05,432 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2023-11-09 20:22:25,477 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2023-11-09 20:22:26,550 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2023-11-09 20:22:34,464 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: sa
+2023-11-09 20:25:25,667 INFO  [io.hawt.web.auth.AuthSessionHelpers] Logging out existing user: hoang92Taco
+2023-11-09 20:25:25,669 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: sa
+2023-11-09 20:55:47,702 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2023-11-09 20:55:47,702 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2023-11-09 20:55:47,702 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2023-11-09 20:55:47,703 WARN  [org.eclipse.jetty.server.HttpChannel] /console/jolokia/
+java.lang.IllegalStateException: null
+	at org.eclipse.jetty.server.session.Session.beginInvalidate(Session.java:912) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.session.Session.invalidate(Session.java:854) ~[jetty-server-10.0.16.jar:10.0.16]
+	at io.hawt.web.auth.SessionExpiryFilter.process(SessionExpiryFilter.java:147) ~[?:?]
+	at io.hawt.web.auth.SessionExpiryFilter.doFilter(SessionExpiryFilter.java:60) ~[?:?]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.apache.activemq.artemis.component.JolokiaFilter.doFilter(JolokiaFilter.java:50) ~[artemis-web-2.31.2.jar:2.31.2]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:578) ~[jetty-security-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1570) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1384) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1543) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1306) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.Server.handle(Server.java:563) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501) [jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282) [jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314) [jetty-io-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100) [jetty-io-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) [jetty-io-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149) [jetty-util-10.0.16.jar:10.0.16]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-11-09 20:55:47,704 WARN  [org.eclipse.jetty.server.HttpChannel] /console/jolokia/
+java.lang.IllegalStateException: null
+	at org.eclipse.jetty.server.session.Session.beginInvalidate(Session.java:912) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.session.Session.invalidate(Session.java:854) ~[jetty-server-10.0.16.jar:10.0.16]
+	at io.hawt.web.auth.SessionExpiryFilter.process(SessionExpiryFilter.java:147) ~[?:?]
+	at io.hawt.web.auth.SessionExpiryFilter.doFilter(SessionExpiryFilter.java:60) ~[?:?]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.apache.activemq.artemis.component.JolokiaFilter.doFilter(JolokiaFilter.java:50) ~[artemis-web-2.31.2.jar:2.31.2]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:578) ~[jetty-security-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1570) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1384) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1543) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1306) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.Server.handle(Server.java:563) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753) ~[jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501) [jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282) [jetty-server-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314) [jetty-io-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100) [jetty-io-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) [jetty-io-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194) [jetty-util-10.0.16.jar:10.0.16]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149) [jetty-util-10.0.16.jar:10.0.16]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-11-09 22:07:20,534 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: sa
